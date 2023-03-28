@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="src/css/style.css">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 </head>
 <body>
@@ -8,7 +8,7 @@
 <div class="wrap">
 <div class="box">
 <main class="item">
-<form action="name_get.php"  method="post">
+<form action="src/name_get.php"  method="post">
  <div class="fillName">กรุณากรอกชื่อ (เรามีไรจะบอกเธอด้วยแหละ)</div>
  <div class="inputBox"><input type="text" id="name" name="name" required></div>
  <input type="hidden" id="goback" name="goback" value="<?php echo $_SERVER['REQUEST_URI']; ?>">

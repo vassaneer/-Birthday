@@ -9,7 +9,7 @@
 <div class="wrap">
 <div class="box">
 <main class="item">
-<form action="index.html">
+<form action="../index.html">
  <div class ='bubble'>
  <?php 
 	if (strcmp($_POST["name"], "พี่เป้")==0){ 
